@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel');
+
+/* utilites */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 2rem;
+  background: green;
+  color: white;
+  padding: 1rem 2rem;
+  letter-spacing: 0.3rem;
+  margin: 2rem;
+  text-transform: uppercase;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+}
+
+header {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header span {
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.borderline {
+  width: 10px;
+  height: 10px;
+  background: red;
+}
+
+.border {
+  background: red;
+  width: 105%;
+  height: 100%;
+}
+
+/* header {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
