@@ -20,6 +20,8 @@
 .container {
   height: 100vh;
   position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/main-bcg.jpeg) center/cover no-repeat fixed;
 }
 
 header {
@@ -36,21 +38,16 @@ header h1 {
 }
 
 header span {
-  font-size: 4rem;
+  font-size: 4.7rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
 
-.borderline {
-  width: 10px;
-  height: 10px;
-  background: red;
-}
-
-.border {
-  background: red;
-  width: 105%;
-  height: 100%;
+.btn-main {
+  outline-color: green;
+  outline-style: solid;
+  outline-width: 0.2rem;
+  outline-offset: 0.3rem;
 }
 
 /* header {
