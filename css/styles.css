@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel');
 
 /* utilites */
+
+:root {
+  --clr-primary: #678e3e;
+  --clr-primary-light: #beed8c;
+  --clr-grey-1: #102a42;
+  --clr-grey-5: #617d98;
+  --clr-grey-10: #f1f5f8;
+  --clr-white: #fff;
+  --ff-primary: 'Catamaran', sans-serif;
+  --ff-secondary: 'Grand Hotel', cursive;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +23,9 @@
 
 .btn {
   display: inline-block;
-  font-size: 2rem;
-  background: green;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: var(--clr-primary);
   color: white;
   padding: 1rem 2rem;
   letter-spacing: 0.3rem;
@@ -33,18 +49,25 @@ header {
   /* transform: translate(-50%, -50%); */
 }
 
-header h1 {
-  font-size: 2rem;
+header h2 {
+  font-size: 2.5rem;
+  color: var(--clr-primary);
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  font-family: var(--ff-secondary);
 }
 
-header span {
-  font-size: 4.7rem;
-  letter-spacing: 0.1rem;
+header h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
+  color: var(--clr-white);
+  /* font-family: var(--ff-primary); */
+  font-weight: bolder;
 }
 
 .btn-main {
-  outline-color: green;
+  outline-color: var(--clr-primary);
   outline-style: solid;
   outline-width: 0.2rem;
   outline-offset: 0.3rem;
